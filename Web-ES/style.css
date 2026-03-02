@@ -1,0 +1,47 @@
+body {
+    /* cor de fundo */
+    background-color: rgb(125, 77, 43);
+    /* flexbox */
+    display: flex;
+    /* alinhamento na horizontal*/
+    justify-content: center;
+    /*alinhamento na vertical*/
+    align-items: center;
+    /*altura da página*/
+    height: 100vh;
+}
+/*para referenciar um class se utiliza um .*/
+/*usamos class para fazer reuso */
+.cartao {
+    background-color: white;
+   /*cantos arredondados*/
+   border-radius: 10px;
+   /*espaçamento interno*/
+   padding: 20px;
+   /*alinhamento dos textos na div*/
+   text-align: center;
+
+}
+button {
+    /*sem borda */
+    border: none;
+    background-color: rgb(125, 77, 43);
+   /*cor do texto */
+    color: rgb(255, 255, 255);
+   /*cantos arredondados */
+   border-radius: 15px;
+    /*espaçamento interno */
+    padding: 10px 20px;
+    /*cria cursor quando mouse passa em cima*/
+    cursor: pointer;
+}
+.imagem {
+    /*largura*/
+    width: 120px;
+    /*altura*/
+    height: 120px;
+    /*cantos arredondados - foto circular */
+    border-radius: 50%;
+    /*borda colorida com espessura, tipo e cor*/
+    border: 4px solid rgb(125, 77, 43); 
+}
